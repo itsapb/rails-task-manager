@@ -1,13 +1,13 @@
 <h2>Create a Task 💐</h2>
 <br>
 <%= form_with(model:@tasks) do |form| %>
-  <%= form.label :title %>
+  <%= form.label :title %> <br>
   <%= form.text_field :title %><br>
 <br>
-  <%= form.label :details %>
+  <%= form.label :details %><br>
   <%= form.text_area :details %><br>
 <br>
-  <%= form.label :completed %>
+  <%= form.label :completed %><br>
   <%= form.check_box :completed %><br>
 <br>
   <%= form.submit %>
