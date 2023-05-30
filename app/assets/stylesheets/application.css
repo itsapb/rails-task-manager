@@ -59,6 +59,14 @@
   color: #FF9F1C;
  }
 
+ footer h1 {
+  color: #FF9F1C;
+ }
+
+#list {
+  color: #FF9F1C;
+}
+
 li{
   list-style-type: none;
 }
